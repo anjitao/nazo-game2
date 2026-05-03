@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CASE FILE : PRODUCER-PC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="terminal">
+
+  <p>CASE FILE : INCIDENT-001</p>
+  <p>USER : IDOL TEAM</p>
+  <p>STATUS : ANALYZING...</p>
+
+  <h2>▶ 謎１「小箱を開けろ」</h2>
+  <p>パスワードを入力してください（半角数字）</p>
+
+  <!-- ヒント1 -->
+  <div class="file">
+    <button onclick="toggleHint('hint1')">📁 hint_file_01.txt を開く</button>
+    <div id="hint1" class="hint-content">
+      <img src="images/hint1.png">
+      <p>莉波「６が三回…何か意味があるよね？」</p>
+    </div>
+  </div>
+
+  <!-- ヒント2 -->
+  <div class="file">
+    <button onclick="toggleHint('hint2')">📁 hint_file_02.txt を開く</button>
+    <div id="hint2" class="hint-content">
+      <img src="images/hint2.png">
+      <p>広「ハ・ホ・ヘに対応してる…？」</p>
+    </div>
+  </div>
+
+  <!-- ヒント3 -->
+  <div class="file">
+    <button onclick="toggleHint('hint3')">📁 hint_file_03.txt を開く</button>
+    <div id="hint3" class="hint-content">
+      <img src="images/hint3.png">
+      <p>星南「あいうえお表で考えるのよ」</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
